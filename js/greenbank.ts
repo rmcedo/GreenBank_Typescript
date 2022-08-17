@@ -20,6 +20,12 @@ console.log(funcionario1);
 console.log(funcionario1.dadosFuncionario());
 console.log(funcionario1.dadosPrincipais());
 console.log(funcionario1.getSenhaAcesso);
+console.log("EMAIL FUNCIONÁRIO ANTES DA MUDANÇA");
+console.warn(funcionario1.email);
+funcionario1.email="funcionario@greenbank.com"
+console.log("EMAIL FUNCIONÁRIO APÓS A MUDANÇA");
+console.warn(funcionario1.email);
+
 
 console.log("-----------------------------------");
 let empresa1 = new Empresa("Diogo Anthony Nathan Lima", "209.886.646-15","34.339.762-6", "02/04/1996", "Masculino","Maya Allana Maria", "Elias Alexandre Davi Lima", "diogo_lima@dillon.com.br", "68903-220", "Rua Agennor Ferreira Pinto", 873, "Macapa", "AP", "(96)2773-4069", "R$35.000,12", "1204688-1", 7160, "Sergio E Manoel Telecomunicações ME", "74.011.080/0001-17","503.576.361.782", "16/08/2022", 9666 )
