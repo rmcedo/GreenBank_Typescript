@@ -8,4 +8,4 @@ Repositório com exercício proposto para fechamento do tópico Typescript
 
 # FUNCIONAMENTO 
 
-<img src="/GIF.gif">
+<a href="#"><img  src="/GIF.gif" /></a>
